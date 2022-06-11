@@ -14,8 +14,11 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<ProductListing />} />
-          <Route path="/product/:productId" element={<ProductDetail />} />
+          <Route path="/redux-demo1" element={<ProductListing />} />
+          <Route
+            path="/redux-demo1/product/:productId"
+            element={<ProductDetail />}
+          />
           <Route> 404 Not Found</Route>
         </Routes>
       </Router>
