@@ -8,7 +8,7 @@ const ProductComponent = () => {
     const { id, title, image, price, category } = product;
     return (
       <div className="four wide column" key={id}>
-        <Link to={`/product/${id}`}>
+        <Link to={`/redux-demo1/product/${id}`}>
           <div className="ui link cards">
             <div className="card">
               <div className="image">
